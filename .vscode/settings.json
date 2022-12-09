@@ -1,0 +1,54 @@
+{
+  // Форматирование кода с помощью prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Форматирование при сохранении файла
+  "editor.formatOnSave": true,
+
+  // Использование локальных правил для StyleLint
+  "stylelint.useLocal": true,
+  "stylelint.autoFixOnSave": true,
+
+  // Проверка орфографии с помощью Code Spell Checker
+  "cSpell.language": "en,ru",
+  "cSpell.userWords": [
+    "backface",
+    "eslintignore",
+    "fontawesome",
+    "ical",
+    "nestjs",
+    "persistor",
+    "prettierrc",
+    "stylelint",
+    "stylelintignore",
+    "todohighlight",
+    "stylelintrc",
+    "Vite",
+    "websockets"
+  ],
+
+  // Дополнительный словарь для Code Spell Checker
+  "cSpell.words": ["antd", "reduxjs", "stylelint"],
+
+  // Подсветка комментариев с приставкой TODO
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "white",
+      "border": "1px solid white",
+      "backgroundColor": "orange"
+    },
+    {
+      "text": "NOTE:",
+      "color": "white",
+      "border": "1px solid white",
+      "backgroundColor": "purple"
+    },
+    {
+      "text": "BUG:",
+      "color": "white",
+      "border": "1px solid white",
+      "backgroundColor": "red"
+    }
+  ]
+}
